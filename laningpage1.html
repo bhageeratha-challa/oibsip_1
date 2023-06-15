@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+        }
+
+        .header {
+            background: linear-gradient(to bottom, #66ffcc 0%, #66ffff 100%);
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        h1 {
+            margin: 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(to top right, #66ffcc 0%, #ffffcc 100%);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .columns {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .column {
+            flex: 1;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-top: 3px solid #00cc00;
+            border-left: 1px solid #ddd;
+            border-bottom: 3px solid #00cc00;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+	
+
+        .footer {
+            background: linear-gradient(to top left, #ffffff 0%, #ccffcc 100%);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .service-image {
+            max-width: 100%;
+            height: 200px; /* Set the desired height for the images */
+            object-fit: cover; /* Ensure the images maintain aspect ratio */
+            margin-bottom: 10px;
+	    border-radius: 30%;
+        }
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .contact-icon {
+            margin-right: 10px;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icon {
+            display: inline-block;
+            margin-right: 10px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://penji.co/wp-content/uploads/2022/10/4.-OrSpeakIT.jpg" alt="Logo" class="logo">
+        <h1>Welcome to Our Landing Page</h1>
+    </div>
+
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Orspark IT Software Solutions is a versatile software company that specializes in diverse projects across various industries. With expertise in healthcare, finance, e-commerce, manufacturing, and more, we deliver tailored solutions to meet client needs. Our team of professionals excels in mobile app development, web design, data analytics, and cloud solutions. We pride ourselves on providing innovative and reliable software services that optimize business processes and drive productivity. Partner with Orspark IT Software Solutions for cutting-edge solutions in the digital landscape.</p>
+
+        <h2>Services</h2>
+        <div class="columns">
+            <div class="column">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMDWJU7K6Z66KTUV2aGTUia4PDsAMJoEZ_HPxgX89kzUsBPzFeBHzfD2Nw_TF6vfPyS3E&usqp=CAU" alt="Feature 1" class="service-image">
+                <h3>Cloud Solutions</h3>
+                <p>Orspark IT Software Solutions offers innovative cloud solutions, enabling businesses to streamline operations, enhance scalability, and ensure secure remote accessibility. Benefit from reduced infrastructure costs, improved collaboration, and advanced data protection with our reliable cloud services.</p>
+                <a href="service1.html" class="button">Learn More</a>
+            </div>
+            <div class="column">
+                <img src="https://img.freepik.com/premium-vector/modern-data-analytic-accounting-logo-design_273648-1180.jpg" alt="Feature 2" class="service-image">
+                <h3>Data Analytics</h3>
+                <p>Leverage the power of data with Orspark IT Software Solutions   advanced analytics services. We always Gain valuable insights and make informed decisions to drive business growth. Maximize performance with our comprehensive data analytics solutions. We have 300+ projects till date.                                                                 </p>
+
+                <a href="service2.html" class="button">Learn More</a>
+            </div>
+            <div class="column">
+                <img src="https://img.freepik.com/free-vector/creative-gradient-code-logo_23-2148820572.jpg?q=10&h=200" alt="Feature 3" class="service-image">
+                <h3>Web Development</h3>
+                <p>Orspark IT Software Solutions delivers exceptional web development services that bring your online presence to life. Our expert team combines creativity and technical expertise to build stunning and user-friendly websites. From responsive design to seamless navigation, we ensure a captivating digital experience for your audience.</p>
+                <a href="service3.html" class="button">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="contact-info">
+            <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+            </div>
+            <p>123-456-7890</p>
+        </div>
+        <div class="contact-info">
+            <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+            </div>
+            <p>OrsparkITsolutions@gmail.com</p>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-square social-icon"></i></a>
+            <a href="#"><i class="fab fa-twitter social-icon"></i></a>
+            <a href="#"><i class="fab fa-instagram social-icon"></i></a>
+        </div>
+        <p>&copy; 2023 My Company. All rights reserved.</p>
+    </div>
+</body>
+</html>
